@@ -3,7 +3,7 @@ $(document).ready(function(){
   var leaders  = ['Mariano%20Rajoy','Pedro%20Sanchez','Albert%20Rivera','Pablo%20Iglesias', 'Alberto%20Garzon'],
       euros    = ['euros'],
       apikey   = 'YB0MY3VMHyllzPqEf5alVj5bUvGpvDVi',
-      queryURL = "http://juicer.api.bbci.co.uk/articles?apikey=" + apikey + "&recent_first=true&q=";
+      queryURL = "http://juicer.api.bbci.co.uk/articles?api_key=" + apikey + "&recent_first=true&q=";
 
   function getResults(query,leader) {
     $('.container').append("<div class='" + prettyStr(leader) + "'></div>");
