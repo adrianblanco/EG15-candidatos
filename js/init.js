@@ -2,7 +2,7 @@ $(document).ready(function(){
   //Haha Clegg you're last. (other leader positions may not reflect the political beliefs of the author)
   var leaders  = ['Mariano%20Rajoy','Pedro%20Sanchez','Albert%20Rivera','Pablo%20Iglesias', 'Alberto%20Garzon'],
       euros    = ['euros'],
-      apikey   = 'YB0MY3VMHyllzPqEf5alVj5bUvGpvDVi',
+      apikey   = 'O0phg6AYyMkxZ6UCG98jgSolSiAViIPW',
       queryURL = "http://juicer.api.bbci.co.uk/articles?apikey=" + apikey + "&recent_first=true&q=";
 
   function getResults(query,leader) {
